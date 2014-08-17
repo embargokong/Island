@@ -1,5 +1,5 @@
-/* Islandsrött: color: #EE3423;
-blått: #00529B*/
+/* Islandsr&ouml;tt: color: #EE3423;
+bl&aring;tt: #00529B*/
 
 body {
 	color: #00529B;	
@@ -51,7 +51,7 @@ body {
 a:link {
 	text-decoration: none;
 	color: #00529B;
-	opacity: 0.8;
+	opacity: 1;
 }
 a:hover, a:hover:visited {
 	color: #00529B;
@@ -59,12 +59,12 @@ a:hover, a:hover:visited {
 }
 a:visited, a:active {
 	color: #00529B;
-	opacity: 0.8;
+	opacity: 1;
 }
 
 .active-dot a:active, .active-dot a:visited, .active-dot a:link{
 	color: #EE3423;
-	opacity: 0.8;
+	opacity: 1;
 }
 
 .active-dot a:hover {
@@ -87,6 +87,7 @@ a:visited, a:active {
 	background-color: #EE3423;
 	height: 27px;
 	border-radius: 1%;
+	opacity: 1;
 }
 
 .menu li {	
@@ -104,7 +105,7 @@ a:visited, a:active {
 
 .menu li a.active-page {
 	color: #EE3423;
-	opacity: 0.8;
+	opacity: 1;
 }
 
 .menu li a.active-page:hover {
@@ -133,13 +134,18 @@ a:visited, a:active {
 }
 
 .right-arrow, .left-arrow {
-    opacity: 0.8;
+    opacity: 1;
 	height: 700px;
 	width: 40px;
 	border-radius: 1%;
 }
 
+.right-arrow:hover, .left-arrow:hover  {
+	opacity: 0.9;
+}
+
 .left-arrow {
+	margin-left: 55px;
 	background-color: #EE3423;
 }
 
@@ -152,9 +158,17 @@ a:visited, a:active {
 }
 
 .footer {
-	background-color: white;
+	background-color: #00529B;
+	opacity: 1;
+	height: 35px;
+	width: 1200px;
+	color: white;
 	font-size: 10px;
 	text-align: center;
+	margin: auto;
 	margin-top: 10px;
-	padding-top: 10px;
+}
+
+.footer p{
+	padding-top: 5px;
 }
